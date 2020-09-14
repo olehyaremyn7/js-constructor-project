@@ -1,0 +1,26 @@
+{
+  "name": "javascript_constructor_project",
+  "version": "1.0.7",
+  "description": "JavaScript Site Constructor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "Webpack"
+  ],
+  "author": "Oleh Yaremyn <oleg.benderg@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
